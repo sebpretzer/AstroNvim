@@ -11,7 +11,7 @@ To install homebrew on Linux, look [here](https://docs.brew.sh/Homebrew-on-Linux
 ## Install AstroNvim
 
 ```
-git clone --depth 1 https://github.com/sebpretzer/AstroNvim ~/.config/nvim
+gh repo clone sebpretzer/AstroNvim ~/.config/nvim
 ```
 
 ## Install Dependencies
