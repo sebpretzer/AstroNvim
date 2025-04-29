@@ -16,6 +16,16 @@ gh repo clone sebpretzer/AstroNvim ~/.config/nvim
 
 ## Install Dependencies
 
+[nodejs](https://nodejs.org/en/download/):
+```
+brew install node
+```
+
+[Lua Language Server](https://luals.github.io/):
+```
+brew install lua-language-server
+```
+
 [nerdfonts](https://www.nerdfonts.com/font-downloads):
 ```
 brew install --cask font-blex-mono-nerd-font
@@ -34,4 +44,16 @@ brew install jesseduffield/lazygit/lazygit
 [deno](https://deno.com/):
 ```
 curl -fsSL https://deno.land/install.sh | sh
+```
+
+## In neovim
+
+### Wait for AstroNvim to install packages
+
+First, make sure you let all the installations take place. This should only be a moment or two.
+
+### Authenticate GitHub Copilot
+
+```vim
+:Copilot auth
 ```
