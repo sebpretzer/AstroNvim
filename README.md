@@ -46,7 +46,11 @@ brew install jesseduffield/lazygit/lazygit
 curl -fsSL https://deno.land/install.sh | sh
 ```
 
-## In neovim
+## Open neovim
+
+```bash
+nvim
+```
 
 ### Wait for AstroNvim to install packages
 
