@@ -10,39 +10,58 @@ To install homebrew on Linux, look [here](https://docs.brew.sh/Homebrew-on-Linux
 
 ## Install AstroNvim
 
+Optionally, you can backup your current nvim configuration:
+
+```bash
+mv ~/.config/nvim ~/.config/nvim.bak
 ```
+or purge it:
+
+```bash
+rm -rf ~/.config/nvim
+```
+
+Then, clone the AstroNvim config into your nvim configuration directory:
+
+```bash
 gh repo clone sebpretzer/AstroNvim ~/.config/nvim
 ```
 
 ## Install Dependencies
 
 [nodejs](https://nodejs.org/en/download/):
-```
+
+```bash
 brew install node
 ```
 
 [Lua Language Server](https://luals.github.io/):
-```
+
+```bash
 brew install lua-language-server
 ```
 
 [nerdfonts](https://www.nerdfonts.com/font-downloads):
-```
+
+```bash
 brew install --cask font-blex-mono-nerd-font
 ```
 
 [ripgrep](https://github.com/BurntSushi/ripgrep):
-```
+
+```bash
 brew install ripgrep
 ```
 
 [lazygit](https://github.com/jesseduffield/lazygit):
-```
+
+```bash
 brew install jesseduffield/lazygit/lazygit
 ```
 
 [deno](https://deno.com/):
-```
+
+```bash
 curl -fsSL https://deno.land/install.sh | sh
 ```
 
