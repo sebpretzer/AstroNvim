@@ -18,7 +18,14 @@ mv ~/.config/nvim ~/.config/nvim.bak
 or purge it:
 
 ```bash
-rm -rf ~/.config/nvim
+rm -rf ~/.config/nvim && \
+rm -rf ~/.local/share/nvim && \
+rm -rf /tmp/nvim.user && \
+rm -rf ~/.local/state/nvim && \
+rm -rf ~/.cache/nvim && \
+rm -rf /etc/xdg/nvim && \
+rm -rf /usr/local/share/nvim && \
+rm -rf /usr/share/nvim
 ```
 
 Then, clone the AstroNvim config into your nvim configuration directory:
